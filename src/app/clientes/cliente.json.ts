@@ -1,4 +1,6 @@
-export const CLIENTES = [
+import { Cliente } from "./cliente";
+
+export const CLIENTES:Cliente[] = [
     {
         id: 1,
         nombre: 'Raúl',
